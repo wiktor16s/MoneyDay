@@ -1,0 +1,33 @@
+{
+  "name": "MoneyDay",
+  "version": "1.0.0",
+  "author": "Wiktor Sacewicz",
+  "scripts": {
+    "clean": "rimraf dist",
+    "dev": "webpack-dev-server --progress --colors --inline --open",
+    "prebuild": "npm install",
+    "build": "npm run clean && webpack --progress --colors -p"
+  },
+  "license": "NONE",
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.11.0",
+    "@babel/runtime": "^7.11.2",
+    "easystarjs": "^0.4.3",
+    "matter-js": "^0.14.2",
+    "p5": "0.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.1.2",
+    "@babel/preset-env": "7.1.0",
+    "babel-loader": "8.0.4",
+    "copy-webpack-plugin": "4.5.4",
+    "css-loader": "1.0.0",
+    "node-sass": "4.9.4",
+    "rimraf": "2.6.2",
+    "sass-loader": "7.1.0",
+    "style-loader": "0.23.1",
+    "webpack": "4.21.0",
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "3.1.9"
+  }
+}
