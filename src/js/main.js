@@ -1,5 +1,5 @@
 import p5 from "p5";
-import "../css/style.scss";
+import "../css/style.css";
 import * as Matter from "matter-js";
 import Grid from "./Grid.js";
 import Player from "./Player.js";
