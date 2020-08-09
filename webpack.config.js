@@ -14,7 +14,7 @@ module.exports = {
     },
 	devServer: {
 		inline: true,
-		port: 3333
+		port: 3000
 	},
 	module: {
 		rules: [
@@ -27,8 +27,8 @@ module.exports = {
 				}
 			},
 			{
-				test: /\.scss$/,
-				loader: "style-loader!css-loader!sass-loader"
+				test: /\.css$/,
+				loader: "style-loader!css-loader"
 			}
 		]
 	},
